@@ -1,0 +1,6 @@
+framework module Pods_LeagueOfBardTests {
+  umbrella header "Pods-LeagueOfBardTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

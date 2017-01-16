@@ -7,13 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3A8EB8E93085783B8D53CCC5 /* Pods_LeagueOfBardUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91D81332734C83C6DDB24703 /* Pods_LeagueOfBardUITests.framework */; };
+		6C4BC1838363E3A6E17E0F20 /* Pods_LeagueOfBardTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15E433CBAFCCA026DE23BA58 /* Pods_LeagueOfBardTests.framework */; };
+		94181A1A3ACCDB7C8F95ABB2 /* Pods_LeagueOfBard.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A665A40F6FC3DB04666F11C0 /* Pods_LeagueOfBard.framework */; };
 		E0A618611E24F25900EFD337 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0A618601E24F25900EFD337 /* AppDelegate.swift */; };
-		E0A618631E24F25900EFD337 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0A618621E24F25900EFD337 /* ViewController.swift */; };
 		E0A618661E24F25900EFD337 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E0A618641E24F25900EFD337 /* Main.storyboard */; };
 		E0A618681E24F25900EFD337 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E0A618671E24F25900EFD337 /* Assets.xcassets */; };
 		E0A6186B1E24F25900EFD337 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E0A618691E24F25900EFD337 /* LaunchScreen.storyboard */; };
 		E0A618761E24F25900EFD337 /* LeagueOfBardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0A618751E24F25900EFD337 /* LeagueOfBardTests.swift */; };
 		E0A618811E24F25900EFD337 /* LeagueOfBardUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0A618801E24F25900EFD337 /* LeagueOfBardUITests.swift */; };
+		E0A6188F1E24F83D00EFD337 /* Champion.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0A6188E1E24F83D00EFD337 /* Champion.swift */; };
+		E0A618911E24F84F00EFD337 /* Spell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0A618901E24F84F00EFD337 /* Spell.swift */; };
+		E0A618931E251B9500EFD337 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0A618921E251B9500EFD337 /* NetworkManager.swift */; };
+		E0A618951E252B4200EFD337 /* ChampionsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0A618941E252B4200EFD337 /* ChampionsCollectionViewCell.swift */; };
+		E0A618971E252B8D00EFD337 /* ChampionsCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0A618961E252B8D00EFD337 /* ChampionsCollectionViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +41,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		15E433CBAFCCA026DE23BA58 /* Pods_LeagueOfBardTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LeagueOfBardTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		59B5B6F72F199A9D6EF779FA /* Pods-LeagueOfBard.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LeagueOfBard.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LeagueOfBard/Pods-LeagueOfBard.debug.xcconfig"; sourceTree = "<group>"; };
+		9163A15493A9D61CD75DA4BC /* Pods-LeagueOfBardTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LeagueOfBardTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LeagueOfBardTests/Pods-LeagueOfBardTests.debug.xcconfig"; sourceTree = "<group>"; };
+		91D81332734C83C6DDB24703 /* Pods_LeagueOfBardUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LeagueOfBardUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9E1B1EF3816DECA1B08E5CA4 /* Pods-LeagueOfBardUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LeagueOfBardUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LeagueOfBardUITests/Pods-LeagueOfBardUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		A0D17ED5E1556AE96A07C7CE /* Pods-LeagueOfBardTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LeagueOfBardTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-LeagueOfBardTests/Pods-LeagueOfBardTests.release.xcconfig"; sourceTree = "<group>"; };
+		A665A40F6FC3DB04666F11C0 /* Pods_LeagueOfBard.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LeagueOfBard.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9EFE83ED76313EF7763049D /* Pods-LeagueOfBardUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LeagueOfBardUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-LeagueOfBardUITests/Pods-LeagueOfBardUITests.release.xcconfig"; sourceTree = "<group>"; };
+		CC85A378E41B60CFBFF05EB4 /* Pods-LeagueOfBard.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LeagueOfBard.release.xcconfig"; path = "Pods/Target Support Files/Pods-LeagueOfBard/Pods-LeagueOfBard.release.xcconfig"; sourceTree = "<group>"; };
 		E0A6185D1E24F25900EFD337 /* LeagueOfBard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LeagueOfBard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0A618601E24F25900EFD337 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E0A618621E24F25900EFD337 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E0A618651E24F25900EFD337 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E0A618671E24F25900EFD337 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E0A6186A1E24F25900EFD337 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +62,11 @@
 		E0A6187C1E24F25900EFD337 /* LeagueOfBardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LeagueOfBardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0A618801E24F25900EFD337 /* LeagueOfBardUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeagueOfBardUITests.swift; sourceTree = "<group>"; };
 		E0A618821E24F25900EFD337 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E0A6188E1E24F83D00EFD337 /* Champion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Champion.swift; sourceTree = "<group>"; };
+		E0A618901E24F84F00EFD337 /* Spell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Spell.swift; sourceTree = "<group>"; };
+		E0A618921E251B9500EFD337 /* NetworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		E0A618941E252B4200EFD337 /* ChampionsCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChampionsCollectionViewCell.swift; sourceTree = "<group>"; };
+		E0A618961E252B8D00EFD337 /* ChampionsCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChampionsCollectionViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				94181A1A3ACCDB7C8F95ABB2 /* Pods_LeagueOfBard.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6C4BC1838363E3A6E17E0F20 /* Pods_LeagueOfBardTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +90,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3A8EB8E93085783B8D53CCC5 /* Pods_LeagueOfBardUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		201748BEACC5EEA2A1267511 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A665A40F6FC3DB04666F11C0 /* Pods_LeagueOfBard.framework */,
+				15E433CBAFCCA026DE23BA58 /* Pods_LeagueOfBardTests.framework */,
+				91D81332734C83C6DDB24703 /* Pods_LeagueOfBardUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A2B3728CAA1C583D8EE7D99D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				59B5B6F72F199A9D6EF779FA /* Pods-LeagueOfBard.debug.xcconfig */,
+				CC85A378E41B60CFBFF05EB4 /* Pods-LeagueOfBard.release.xcconfig */,
+				9163A15493A9D61CD75DA4BC /* Pods-LeagueOfBardTests.debug.xcconfig */,
+				A0D17ED5E1556AE96A07C7CE /* Pods-LeagueOfBardTests.release.xcconfig */,
+				9E1B1EF3816DECA1B08E5CA4 /* Pods-LeagueOfBardUITests.debug.xcconfig */,
+				B9EFE83ED76313EF7763049D /* Pods-LeagueOfBardUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		E0A618541E24F25800EFD337 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +127,8 @@
 				E0A618741E24F25900EFD337 /* LeagueOfBardTests */,
 				E0A6187F1E24F25900EFD337 /* LeagueOfBardUITests */,
 				E0A6185E1E24F25900EFD337 /* Products */,
+				A2B3728CAA1C583D8EE7D99D /* Pods */,
+				201748BEACC5EEA2A1267511 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -98,11 +146,15 @@
 			isa = PBXGroup;
 			children = (
 				E0A618601E24F25900EFD337 /* AppDelegate.swift */,
-				E0A618621E24F25900EFD337 /* ViewController.swift */,
+				E0A618961E252B8D00EFD337 /* ChampionsCollectionViewController.swift */,
 				E0A618641E24F25900EFD337 /* Main.storyboard */,
+				E0A618941E252B4200EFD337 /* ChampionsCollectionViewCell.swift */,
 				E0A618671E24F25900EFD337 /* Assets.xcassets */,
 				E0A618691E24F25900EFD337 /* LaunchScreen.storyboard */,
 				E0A6186C1E24F25900EFD337 /* Info.plist */,
+				E0A6188E1E24F83D00EFD337 /* Champion.swift */,
+				E0A618901E24F84F00EFD337 /* Spell.swift */,
+				E0A618921E251B9500EFD337 /* NetworkManager.swift */,
 			);
 			path = LeagueOfBard;
 			sourceTree = "<group>";
@@ -132,9 +184,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E0A618851E24F25900EFD337 /* Build configuration list for PBXNativeTarget "LeagueOfBard" */;
 			buildPhases = (
+				7F2B3049C210F17769715367 /* [CP] Check Pods Manifest.lock */,
 				E0A618591E24F25800EFD337 /* Sources */,
 				E0A6185A1E24F25800EFD337 /* Frameworks */,
 				E0A6185B1E24F25800EFD337 /* Resources */,
+				B4588EEB76349F4F2351270F /* [CP] Embed Pods Frameworks */,
+				D2DC3D02DA34DAA2E8C31B59 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +204,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E0A618881E24F25900EFD337 /* Build configuration list for PBXNativeTarget "LeagueOfBardTests" */;
 			buildPhases = (
+				B72A82166199D8244F2AD7A5 /* [CP] Check Pods Manifest.lock */,
 				E0A6186D1E24F25900EFD337 /* Sources */,
 				E0A6186E1E24F25900EFD337 /* Frameworks */,
 				E0A6186F1E24F25900EFD337 /* Resources */,
+				754418304B8D5329FA896BD8 /* [CP] Embed Pods Frameworks */,
+				8266D04EA7B134C6D36269E3 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +225,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E0A6188B1E24F25900EFD337 /* Build configuration list for PBXNativeTarget "LeagueOfBardUITests" */;
 			buildPhases = (
+				E683DD3A4D174904534B9278 /* [CP] Check Pods Manifest.lock */,
 				E0A618781E24F25900EFD337 /* Sources */,
 				E0A618791E24F25900EFD337 /* Frameworks */,
 				E0A6187A1E24F25900EFD337 /* Resources */,
+				175F1846539F1E45A76CD56D /* [CP] Embed Pods Frameworks */,
+				5806EC7C6D781906141DE551 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -254,13 +315,155 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		175F1846539F1E45A76CD56D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LeagueOfBardUITests/Pods-LeagueOfBardUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5806EC7C6D781906141DE551 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LeagueOfBardUITests/Pods-LeagueOfBardUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		754418304B8D5329FA896BD8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LeagueOfBardTests/Pods-LeagueOfBardTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7F2B3049C210F17769715367 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8266D04EA7B134C6D36269E3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LeagueOfBardTests/Pods-LeagueOfBardTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B4588EEB76349F4F2351270F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LeagueOfBard/Pods-LeagueOfBard-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B72A82166199D8244F2AD7A5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D2DC3D02DA34DAA2E8C31B59 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LeagueOfBard/Pods-LeagueOfBard-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E683DD3A4D174904534B9278 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		E0A618591E24F25800EFD337 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E0A618631E24F25900EFD337 /* ViewController.swift in Sources */,
+				E0A618951E252B4200EFD337 /* ChampionsCollectionViewCell.swift in Sources */,
 				E0A618611E24F25900EFD337 /* AppDelegate.swift in Sources */,
+				E0A618931E251B9500EFD337 /* NetworkManager.swift in Sources */,
+				E0A618911E24F84F00EFD337 /* Spell.swift in Sources */,
+				E0A6188F1E24F83D00EFD337 /* Champion.swift in Sources */,
+				E0A618971E252B8D00EFD337 /* ChampionsCollectionViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -408,6 +611,7 @@
 		};
 		E0A618861E24F25900EFD337 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 59B5B6F72F199A9D6EF779FA /* Pods-LeagueOfBard.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = LeagueOfBard/Info.plist;
@@ -420,6 +624,7 @@
 		};
 		E0A618871E24F25900EFD337 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CC85A378E41B60CFBFF05EB4 /* Pods-LeagueOfBard.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = LeagueOfBard/Info.plist;
@@ -432,6 +637,7 @@
 		};
 		E0A618891E24F25900EFD337 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9163A15493A9D61CD75DA4BC /* Pods-LeagueOfBardTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -446,6 +652,7 @@
 		};
 		E0A6188A1E24F25900EFD337 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A0D17ED5E1556AE96A07C7CE /* Pods-LeagueOfBardTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -460,6 +667,7 @@
 		};
 		E0A6188C1E24F25900EFD337 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9E1B1EF3816DECA1B08E5CA4 /* Pods-LeagueOfBardUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = LeagueOfBardUITests/Info.plist;
@@ -473,6 +681,7 @@
 		};
 		E0A6188D1E24F25900EFD337 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B9EFE83ED76313EF7763049D /* Pods-LeagueOfBardUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = LeagueOfBardUITests/Info.plist;
@@ -503,6 +712,7 @@
 				E0A618871E24F25900EFD337 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E0A618881E24F25900EFD337 /* Build configuration list for PBXNativeTarget "LeagueOfBardTests" */ = {
 			isa = XCConfigurationList;
@@ -511,6 +721,7 @@
 				E0A6188A1E24F25900EFD337 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E0A6188B1E24F25900EFD337 /* Build configuration list for PBXNativeTarget "LeagueOfBardUITests" */ = {
 			isa = XCConfigurationList;
@@ -519,6 +730,7 @@
 				E0A6188D1E24F25900EFD337 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -3,7 +3,7 @@
 
 
 
-                                                            LEAGUE OF BARD !
+                                                     LEAGUE OF BARD !
 
 
 " League Of Bard " est une application de visualisation des champions de league of legend.
